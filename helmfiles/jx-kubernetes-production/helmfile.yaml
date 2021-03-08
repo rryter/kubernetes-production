@@ -11,5 +11,7 @@ releases:
 - chart: dev/node-demo-app
   version: 0.0.3
   name: node-demo-app
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}

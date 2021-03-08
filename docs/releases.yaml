@@ -99,11 +99,11 @@
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
     ingresses:
     - name: chartmuseum
-      url: https://chartmuseum-jx.prod.twy.gmbh
+      url: https://chartmuseum.prod.twy.gmbh
     - name: hook
-      url: https://hook-jx.prod.twy.gmbh
+      url: https://hook.prod.twy.gmbh
     - name: nexus
-      url: https://nexus-jx.prod.twy.gmbh
+      url: https://nexus.prod.twy.gmbh
     name: jxboot-helmfile-resources
     repositoryName: jenkins-x
     repositoryUrl: https://storage.googleapis.com/chartmuseum.jenkins-x.io
@@ -120,13 +120,13 @@
     version: 3.0.5
   - apiVersion: v1
     appVersion: latest
-    applicationUrl: https://dashboard-jx.prod.twy.gmbh
+    applicationUrl: https://dashboard.prod.twy.gmbh
     description: Web UI for Jenkins X, with a clear goal - visualize the pipelines - and their logs.
     home: https://github.com/jenkins-x/jx-pipelines-visualizer
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
     ingresses:
     - name: jx-pipelines-visualizer
-      url: https://dashboard-jx.prod.twy.gmbh
+      url: https://dashboard.prod.twy.gmbh
     name: jx-pipelines-visualizer
     repositoryName: jx3
     repositoryUrl: https://storage.googleapis.com/jenkinsxio/charts
@@ -299,3 +299,5 @@
     repositoryUrl: https://cdfoundation.github.io/tekton-helm-chart
     resourcePath: config-root/namespaces/tekton-pipelines/tekton-pipeline
     version: 0.21.0
+- namespace: jx-kubernetes-production
+  path: helmfiles/jx-kubernetes-production/helmfile.yaml

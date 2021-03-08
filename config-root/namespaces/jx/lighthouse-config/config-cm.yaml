@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - twygmbh/kubernetes-production
-      target_url: http://dashboard-jx.prod.twy.gmbh
+      target_url: http://dashboard.prod.twy.gmbh
 kind: ConfigMap
 metadata:
   creationTimestamp: null

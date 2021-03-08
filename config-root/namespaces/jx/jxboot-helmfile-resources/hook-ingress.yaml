@@ -16,8 +16,8 @@ spec:
               serviceName: hook
               servicePort: 80
             path: "/hook"
-      host: hook-jx.prod.twy.gmbh
+      host: hook.prod.twy.gmbh
   tls:
     - hosts:
-        - hook-jx.prod.twy.gmbh
+        - hook.prod.twy.gmbh
       secretName: "tls-prod-twy-gmbh-p"

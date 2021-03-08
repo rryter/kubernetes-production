@@ -16,8 +16,8 @@ spec:
               serviceName: nexus
               servicePort: 80
             path: "/"
-      host: nexus-jx.prod.twy.gmbh
+      host: nexus.prod.twy.gmbh
   tls:
     - hosts:
-        - nexus-jx.prod.twy.gmbh
+        - nexus.prod.twy.gmbh
       secretName: "tls-prod-twy-gmbh-p"

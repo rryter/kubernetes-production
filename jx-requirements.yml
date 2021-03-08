@@ -29,7 +29,7 @@ spec:
     domain: prod.twy.gmbh
     externalDNS: true
     kind: ingress
-    namespaceSubDomain: -jx.
+    namespaceSubDomain: .
     tls:
       email: reto@twy.gmbh
       enabled: true

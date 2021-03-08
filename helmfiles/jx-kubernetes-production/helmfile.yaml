@@ -1,0 +1,17 @@
+filepath: ""
+environments:
+  default:
+    values:
+    - jx-values.yaml
+namespace: jx-kubernetes-production
+repositories:
+- name: dev
+  url: http://jenkins-x-chartmuseum.jx.svc.cluster.local:8080
+releases:
+- chart: dev/node-demo-app
+  version: 0.0.2
+  name: node-demo-app
+  values:
+  - jx-values.yaml
+templates: {}
+renderedvalues: {}

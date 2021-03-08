@@ -7,6 +7,5 @@ namespace: jx-kubernetes-production
 repositories:
 - name: dev
   url: http://jenkins-x-chartmuseum.jx.svc.cluster.local:8080
-releases: []
 templates: {}
 renderedvalues: {}

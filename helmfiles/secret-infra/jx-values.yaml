@@ -43,7 +43,7 @@ jxRequirements:
     domain: prod.twy.gmbh
     externalDNS: true
     kind: ingress
-    namespaceSubDomain: -secret-infra.
+    namespaceSubDomain: .
     tls:
       email: reto@twy.gmbh
       enabled: true

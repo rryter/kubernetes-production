@@ -16,8 +16,8 @@ spec:
               serviceName: jenkins-x-chartmuseum
               servicePort: 8080
             path: "/"
-      host: chartmuseum-jx.prod.twy.gmbh
+      host: chartmuseum.prod.twy.gmbh
   tls:
     - hosts:
-        - chartmuseum-jx.prod.twy.gmbh
+        - chartmuseum.prod.twy.gmbh
       secretName: "tls-prod-twy-gmbh-p"

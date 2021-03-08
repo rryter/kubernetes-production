@@ -17,7 +17,7 @@ metadata:
   namespace: jx
 spec:
   rules:
-    - host: dashboard-jx.prod.twy.gmbh
+    - host: dashboard.prod.twy.gmbh
       http:
         paths:
           - backend:
@@ -26,4 +26,4 @@ spec:
   tls:
     - secretName: tls-prod-twy-gmbh-p
       hosts:
-        - dashboard-jx.prod.twy.gmbh
+        - dashboard.prod.twy.gmbh

@@ -8,6 +8,8 @@ repositories:
   url: https://storage.googleapis.com/jenkinsxio/charts
 - name: dev
   url: https://chartmuseum.staging.twy.gmbh
+- name: dev2
+  url: http://jenkins-x-chartmuseum.jx.svc.cluster.local:8080
 releases:
 - chart: jx3/jx-verify
   name: jx-verify
@@ -15,7 +17,7 @@ releases:
   values:
   - jx-values.yaml
 - chart: dev/node-demo-app
-  version: 0.0.4
+  version: 0.0.5
   name: node-demo-app
   namespace: jx-production
   values:
